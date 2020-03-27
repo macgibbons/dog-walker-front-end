@@ -1,15 +1,15 @@
-.dog--card {
+.owner--card {
     border: 1px solid black;
     margin: auto;
     padding: 1em;
 }
 
-.dog--list{
+.owner--list{
     display: flex;
     flex-wrap: wrap;
 }
 
-.dog--header {
+.owner--header {
     text-align: center;
     font-size: 30pt;
     margin-bottom: 1em;
