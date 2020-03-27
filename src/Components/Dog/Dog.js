@@ -4,15 +4,15 @@ import React from "react"
 import { Link } from "react-router-dom"
 
 
-export default ({dog}) => (
+export default ({history, dog}) => (
 
     <section className="dog--card">
-       
-        <div className="dog--card--header">
-            <h3 className="dog--title">
-                  { dog.name }
-            </h3>
-        </div>
+        <h3 className="dog--title">
+              { dog.name }
+        </h3>
+{/*        
+        // <div className="dog--card--header">
+        // </div>
 
         <div>
              {dog.breed}
@@ -22,7 +22,7 @@ export default ({dog}) => (
         </div>
         <div>
              {dog.notes}
-        </div>
+        </div> */}
 
     </section>
 )

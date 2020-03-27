@@ -18,8 +18,9 @@ export default (props) => {
             { 
                dogs.map(dog => {
 
-                    console.log(`${dog.name}, ${dog.breed}`)
-                    return <Dog {...props} key={dog.id}  Dog={dog}   />
+                    console.log(`dog: ${dog.name} Breed: ${dog.breed} owner: ${dog.owner.name}`)
+
+                    return <Dog {...props} key={dog.id}  dog={dog}   />
                 })                
             }
             
