@@ -1,0 +1,16 @@
+.walker--card {
+    border: 1px solid black;
+    margin: auto;
+    padding: 1em;
+}
+
+.walker--list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.walker--header {
+    text-align: center;
+    font-size: 30pt;
+    margin-bottom: 1em;
+}
