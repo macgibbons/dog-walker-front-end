@@ -13,6 +13,9 @@ export default (props) => {
                 <div className="header">Walkers</div>
                 
             </div>
+            <button className="employeeButton" onClick={() => props.history.push("/walkers/create")}>
+                Add Walker
+            </button>
             <div className="walker--list">
 
                 

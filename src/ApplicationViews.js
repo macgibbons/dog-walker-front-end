@@ -6,6 +6,7 @@ import DogList from "./Components/Dog/DogList";
 import { OwnerProvider } from "./Components/Owner/OwnerProvider";
 import OwnerList from "./Components/Owner/OwnerList";
 import { Route } from "react-router-dom";
+import WalkerForm from "./Components/Walker/WalkerForm";
 
 
 export default (props) => {
@@ -20,6 +21,9 @@ export default (props) => {
                 <Route exact path="/walkers" render ={
                             props => <WalkerList {...props} />
                         }/>
+                        <Route exact path="/walkers/create" render = {
+                            props => <WalkerForm {...props} />
+                        } />
                 <Route exact path="/dogs" render ={
                             props => <DogList {...props} />
                         }/>
